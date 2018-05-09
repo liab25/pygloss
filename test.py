@@ -1,6 +1,6 @@
 import requests
+import json
 
-x = 10
-while x > 5:
-  print(x)
-  x -= 1
+while_def = requests.get('https://raw.githubusercontent.com/liab25/pygloss/master/while.md', auth=('liab_t@hotmail.com', 'Drift3r@30'))
+
+print(while_def.text)

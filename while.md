@@ -1,4 +1,4 @@
-While: Executes a block of code as long as the condition is true.
+**While**: Executes a block of code as long as the condition is true.
 
 Example:
 
