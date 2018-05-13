@@ -6,7 +6,7 @@ Example:
 x = 10
 while x > 5:
   print(x)
-  x -= 1
+  x -= 1 # subtract 1 from 'x' each time
 
 >>> 10
 >>> 9
